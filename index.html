@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,28 @@
     <title>Group Project</title>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Library of Congress Search Engine</h1>
-        <input type="text" id="text-field" name="text-field" />
-        <select id="dropdown" name="dropdown">
-            <option value="maps" id="maps">maps</option>
-            <option value="audio-recordings" id="audio-recordings">audio recordings</option>
-            <option value="photo" id="photo">photo</option>
-            <option value="manuscripts" id="manuscripts">manuscripts</option>
-            <option value="newspapers" id="newspapers">newspapers</option>
-            <option value="film" id="film">film</option>
-            <option value="music" id="music">music</option>
-            <option value="archived-websites" id="archived-websites">archived websites</option>
-        </select>
-    </div>
+    <section>
+        <div class="container">
+            <h1>Library of Congress Search Engine</h1>
+            <input type="text" id="text-field" name="text-field" placeholder="What can we help you with today?" />
+            <br><select id="dropdown" name="dropdown">
+                <option value="maps" id="maps">Maps</option>
+                <option value="audio-recordings" id="audio-recordings">Audio Recordings</option>
+                <option value="photo" id="photo">Photo, Print, Drawing</option>
+                <option value="manuscripts" id="manuscripts">Manuscripts & Mixed Material</option>
+                <option value="newspapers" id="newspapers">Newspapers</option>
+                <option value="film" id="film">Film & Video</option>
+                <option value="music" id="music">Printed Music / Sheet Music</option>
+                <option value="archived-websites" id="archived-websites">Archived Websites</option>
+            </select>
+        </div>
+    </section>
 
     <script src="/script.js"></script>
 </body>
+
 </html>
