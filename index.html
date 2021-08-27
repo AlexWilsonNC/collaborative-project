@@ -10,7 +10,30 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <h1>hey</h1>>
+    <div class="container">
+        <h1>Library of Congress Search Engine</h1>
+        <input type="text" id="text-field" name="text-field" />
+        <select id="dropdown" name="dropdown">
+            <option value="maps" id="maps">maps</option>
+            <option value="audio-recordings" id="audio-recordings">audio recordings</option>
+            <option value="photo" id="photo">photo</option>
+            <option value="manuscripts" id="manuscripts">manuscripts</option>
+            <option value="newspapers" id="newspapers">newspapers</option>
+            <option value="film" id="film">film</option>
+            <option value="music" id="music">music</option>
+            <option value="archived-websites" id="archived-websites">archived websites</option>
+        </select>
+
+        maps: maps
+audio recordings: audio
+photo, print, drawing: photos
+manuscripts/mixed material: manuscripts
+newspapers: newspapers
+film, videos: film-and-videos
+printed music, such as sheet music: notated-music
+archived websites: websites
+    </div>
+
     <script src="/script.js"></script>
 </body>
 </html>
