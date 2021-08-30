@@ -36,12 +36,11 @@ h1 {
 }
 
 input {
-    width: 800px;
+    width: 778px;
     height: 50px;
     border-radius: 10px;
-    border-style: none;
-    margin-bottom: 15px;
-    margin-left: 90px;
+    border: 0.25px solid black;
+    margin-left: 100px;
     padding-left: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     font-size: 22px;
@@ -52,7 +51,8 @@ select {
     width: 800px;
     height: 50px;
     border-radius: 10px;
-    margin-left: 90px;
+    margin-top: 15px;
+    margin-left: 100px;
     text-align: center;
     padding-left: 20px;
     /* padding-right: 20px; arrow wont move left */ 
@@ -67,7 +67,7 @@ select {
     font-size: 32px;
     padding: 6px;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 1.55px solid black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     background-image: linear-gradient(to top right, rgb(195, 194, 207), rgb(71, 61, 207));
     color: white;
