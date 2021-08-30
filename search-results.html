@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group Project</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="search-results.css">
 </head>
 <body>
@@ -13,7 +12,7 @@
         <aside id="searchBar">
             <h1>Library of Congress Search Engine</h1>
             <form id="searchForm">
-                <input type="text" id="text-field" name="text-field" placeholder="What can we help you with today?" />
+                <input type="text" id="text-field" name="text-field" placeholder="Search again?" />
                 <br>
                 <select id="dropdown" name="dropdown">
                     <option value="maps" id="maps">Maps</option>
@@ -25,10 +24,13 @@
                     <option value="music" id="music">Printed Music / Sheet Music</option>
                     <option value="archived-websites" id="archived-websites">Archived Websites</option>
                 </select>
+                <br>
+                <button id="result-search">Search</button>
             </form>
         </aside>
         <div id="results">
-            <h1>Showing Results for <span>Search Term</span></h1>
+            <h2>Showing Results for <span>Search Term</span></h2>
+            <div class="found-results"></div>
         </div>
     </main>
 
