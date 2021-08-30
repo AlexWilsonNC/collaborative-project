@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Group Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="search-results.css">
 </head>
 <body>
+    <main id="searchPage">
+        <aside id="searchBar">
+            <h1>Library of Congress Search Engine</h1>
+            <form id="searchForm">
+                <input type="text" id="text-field" name="text-field" placeholder="What can we help you with today?" />
+                <br>
+                <select id="dropdown" name="dropdown">
+                    <option value="maps" id="maps">Maps</option>
+                    <option value="audio-recordings" id="audio-recordings">Audio Recordings</option>
+                    <option value="photo" id="photo">Photo, Print, Drawing</option>
+                    <option value="manuscripts" id="manuscripts">Manuscripts & Mixed Material</option>
+                    <option value="newspapers" id="newspapers">Newspapers</option>
+                    <option value="film" id="film">Film & Video</option>
+                    <option value="music" id="music">Printed Music / Sheet Music</option>
+                    <option value="archived-websites" id="archived-websites">Archived Websites</option>
+                </select>
+            </form>
+        </aside>
+        <div id="results">
+            <h1>Showing Results for <span>Search Term</span></h1>
+        </div>
+    </main>
+
     <script src="./search-results.js"></script>
 </body>
 </html>
