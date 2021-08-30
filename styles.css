@@ -39,7 +39,7 @@ input {
     width: 778px;
     height: 50px;
     border-radius: 10px;
-    border: 0.25px solid black;
+    border: 0.25px solid grey;
     margin-left: 100px;
     padding-left: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
@@ -69,7 +69,7 @@ select {
     border-radius: 10px;
     border: 1.55px solid black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-    background-image: linear-gradient(to top right, rgb(195, 194, 207), rgb(71, 61, 207));
+    background-image: linear-gradient(to top right, rgb(171, 169, 201), rgb(71, 61, 207));
     color: white;
 }
 
